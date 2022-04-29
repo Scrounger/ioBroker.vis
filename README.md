@@ -204,13 +204,44 @@ Notice that these settings are valid only for reconnection and not for the first
 
 <!--
     Placeholder for the next version (at the beginning of the line):
-    ### __WORK IN PROGRESS__
+    ### **WORK IN PROGRESS**
 -->
-
 ## Changelog
+### 1.4.15 (2022-04-10)
+* (bluefox) Better check of the offline license
+
+### 1.4.14 (2022-03-31)
+* (bluefox) Corrected GUI bug
+
+### 1.4.13 (2022-03-22)
+* (pascal-hari) The group attributes will be replaced recursively
+
+### 1.4.12 (2022-02-12)
+* (bluefox) Fixed bug with the export of specific widgets
+
+### 1.4.11 (2022-02-12)
+* (bluefox) Removed ES6 commands to be supported by older browsers
+* (oweitman) Fixed problem with update of grouped widgets
+* (stephanritscher) Added web manifest to be able to handle vis as the web app
+
+### 1.4.8 (2022-01-29)
+* (bluefox) Added support for js-controller 4.x
+
+### 1.4.7 (2021-12-28)
+* (mswiege) Fixed subscribeOidAtRuntime if called with invalid IDs
+* (bluefox) Added support of license manager
+
+### 1.4.6 (2021-11-20)
+* (bluefox) Added the license check even without internet
+
+### 1.4.5 (2021-10-08)
+* (jens-maus) Added frame-src spec to content-security-policy header fixing frame related content blocking issues (e.g. using KioskPro iOS app).
+* (bluefox) Showed the extended error messages by license check
+* (Scrounger) Patch visibility oid binding
+
 ### 1.4.4 (2021-08-31)
 * (jobe451) Allowed to have ":" in the binding object IDs
- 
+
 ### 1.4.3 (2021-07-11)
 * (bluefox) Added possibility to check license offline (only special once)
 
@@ -242,7 +273,7 @@ Notice that these settings are valid only for reconnection and not for the first
 * (Scrounger) Added the optional arguments to support Material Design Widgets
 
 ### 1.3.4 (2020-10-04)
-* (foxriver76) Corrected the error on older devices 
+* (foxriver76) Corrected the error on older devices
 
 ### 1.3.3 (2020-09-21)
 * (bluefox) Return de-bounce settings back
@@ -261,7 +292,7 @@ Notice that these settings are valid only for reconnection and not for the first
 * (foxriver76) only parse arrays and json objects, not booleans, normal strings etc
 
 ### 1.2.11 (2020-08-25)
-* (bluefox) The error message about the non-found chart view was fixed. 
+* (bluefox) The error message about the non-found chart view was fixed.
 
 ### 1.2.10 (2020-08-23)
 * (gsicilia82/fceller) JSON strings will be parsed in VIS bindings
@@ -509,7 +540,7 @@ Notice that these settings are valid only for reconnection and not for the first
 * (bluefox) change security settings
 
 ## License
- Copyright (c) 2013-2021 bluefox, https://github.com/GermanBluefox <dogafox@gmail.com>,
+ Copyright (c) 2013-2022 bluefox, https://github.com/GermanBluefox <dogafox@gmail.com>,
  
  Copyright (c) 2013-2014 hobbyquaker, https://github.com/hobbyquaker <hobbyquaker@gmail.com>,
  
